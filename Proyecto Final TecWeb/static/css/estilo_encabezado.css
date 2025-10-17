@@ -1,0 +1,55 @@
+#encabezado {
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 90px;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    padding-top: 13px; 
+    padding-bottom: 15px;
+}
+#titulo {
+    font-family:'Raleway';
+    font-style:'oblique';  
+    font-size: 15px;
+    margin: 7px;
+    margin-left: 50px;
+    margin-top: 57px;  
+}
+
+#icono {
+    margin-right: 900px;
+    margin-left: auto;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+#botones{
+    position:fixed;
+    top:0;
+    font-family: 'Raleway';
+    border-collapse: collapse;
+    width: 99%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+    border-radius: 7px;
+    align-items: center;
+    border: 3px solid black;
+}
+.botinicio{
+    width: 200px;
+    height: 40px;
+    font-family: Botones;
+    font-size: x-large;
+    background-color: antiquewhite;
+    border: black solid 3px;
+    border-radius: 7px;
+}
+
+.botinicio:hover{
+    border: solid 3px white;
+    background-color:rgb(243, 218, 186);
+}
+

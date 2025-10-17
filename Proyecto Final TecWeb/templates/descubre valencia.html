@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Descubre Valencia</title>
+        <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <link rel="stylesheet" href="../static/css/estilo_encabezado.css">
+        <link rel="stylesheet" href="../static/css/footer.css">
+        <link rel="stylesheet" href="../app.py">
+        <style>
+        ul{
+            background-color: antiquewhite;
+            font-size: 20px;
+            list-style-type: circle;
+        }
+        p{
+            font-size: 20px;
+        } 
+        #cuerpo{
+            text-align: center;
+            padding: auto;
+            margin-top: 100px;
+            font-family: 'Quicksand', serif;
+        }
+        video{
+            width: 1500px;
+            height: 700px;
+            margin-top: 0px;
+            
+        }
+        #primerparrafo{
+            margin-left: 150px;
+            width: 80%;
+            border: antiquewhite 3px solid;
+        }
+        #galeria{
+            padding: 2px;
+            margin-bottom: 40px;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #galería div {
+                flex-direction: row;
+                flex-grow: 1;
+                justify-content: center;
+        }
+        a.playaubi{
+            text-decoration: none;
+            color: black;
+        }
+        #youtube{
+            margin-left: 250px;
+        }
+        
+        </style>
+        
+        
+    </head>
+
+    <body>
+        <div id="navegar">
+            <header id="encabezado">
+                <h3 id="titulo">Descubre Valencia</h3>
+                <img id="icono" src="../static/IMÁGENES/Logo valencia.jpg">
+            </header>
+        </div>
+    
+        <nav id="botones">
+            <a href="descubre valencia.html"><button class="botinicio">Inicio</button></a>
+            <a href="GASTRONOMÍA.html"><button class="botinicio">Gastronomía</button></a>
+            <a href="Turismo.html"><button class="botinicio">Turismo</button></a>
+            <a href="Ocio.html"><button class="botinicio">Ocio nocturno</button></a>
+            <a href="formulario.html"><button class="botinicio">Tu visita</button></a>
+        </nav>
+
+        <div id="youtube">
+            <iframe width="950" height="560" src="https://www.youtube.com/embed/pCfCyXhAugQ?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div id="cuerpo">
+            <h1>¿Por qué deberías visitar Valencia?</h1>
+
+            <img src="../static/IMÁGENES/Artes y ciencias1.jpg" width="1400px">
+            <br>
+
+            <div id="primerparrafo">
+            <br>
+
+            <p>Un lugar de contrastes que espera al viajero con un encantador casco histórico junto con edificios futuristas. Así es Valencia, una de las ciudades más acogedoras de España para pasar unos días. Más allá de la efervescencia cultural de sus calles, siempre apetece un paseo o un buen baño en sus playas mediterráneas. Por supuesto, es imprescindible probar su plato estrella, la paella (¡la auténtica!) y otras exquisiteces como las clóchinas o la horchata.</p>
+            <p> Cualquier momento resulta bueno para viajar a Valencia, aunque si hay uno especial y es cuando se celebran sus famosísimas Fallas con gigantescas “esculturas de cartón” ardiendo. Y es que su luz mediterránea, su clima suave y el embrujo del fuego hacen de esta ciudad un lugar en el que querer quedarse.</p></br>
+        </div></br>
+
+        <h2>¿Cuando deberías de visitar Valencia?</h2>
+
+        <img src="../static/IMÁGENES/ciudadarriba1.jpg" width="1400px" height="60px">
+        <br>
+
+        <p>Cualquier época del año es buena para visitar esta ciudad, pero si hay 2 estaciones muy especiales al año: La primavera y el verano.</p></br>
+         
+        <h2>¿Porque la primavera?</h2>
+
+        <hr size="1px" color="black"/>
+        <br>
+        
+        <p>Y es porque la fiesta mas grande del año, ya considerada patrimonio de la humanidad desde el año 2016 se celebra en esta estación del año, exactamente del 15 al 19 de marzo.</p>
+        <p>Pero realmente las fallas comienzan mucho antes. Desde el día de la cridá, que se realiza siempre el último domingo de febrero. A partir de dicho día gozaremos todos los días hasta el final de la fiesta de la mascletá, que se realiza en la plaza del ayuntamiento a las 14:00 cada día.</p></br>
+        
+        <h3>Aquí os dejamos breve programación de las fallas:</h3>
+
+        <ul>
+            <li>Exposición del ninot hasta el día 14.</li>
+            <li>Día 16 se hace la plantá.</li>
+            <li>Ofrenda plaza de la virgen días 17 y 18.</li>
+            <li>Del día 16 al día 18 se hará el castillo entre las 23:00 y 01:00 de la madrugada.</li>
+            <li>Cremá día 19 de marzo y fin de las fallas.</li>
+        </ul>
+        
+        <hr size="1px" color="black"/>
+
+        <div id="galeria">
+            <button onclick="abrir(1)"><img id='1' src="../static/IMÁGENES/crida.jpg" width="190px" height="130px"></button>
+            <button onclick="abrir(2)"><img id='2' src="../static/IMÁGENES/fallera.jpg" width="180px" height="130px"></button>
+            <button onclick="abrir(3)"><img id='3' src="../static/IMÁGENES/mascleta.jpg" width="190px" height="130px"></button>
+            <button onclick="abrir(4)"><img id='4' src="../static/IMÁGENES/falla.jpg" width="180px" height="130px"></button>
+            <button onclick="abrir(5)"><img id='5' src="../static/IMÁGENES/ofrenda.jpg" width="190px" height="130px"></button>
+            <button onclick="abrir(6)"><img id='6' src="../static/IMÁGENES/castillo1.jpg" width="190px" height="130px"></button>
+            <button onclick="abrir(7)"><img id='7' src="../static/IMÁGENES/crema.jpg" width="180px" height="130px"></button>
+        </div>
+
+        <h4>Si quieres ver la imagen mas de cerca solo pulsa sobre ella.</h4>
+
+        <hr size="1px" color="black"/>
+        <br>
+
+        <h2>¿Y que hay del verano?</h2>
+        </br>
+
+        <p>El verano es la otra mejor estación del año para visitar esta preciosa ciudad, aunque de por si es una ciudad con sol mas de 300 días al año, si es verano mejor ya que podremos disfrutar de una cantidad muy grande de playas, ya sea dentro o en las afueras, arena o roca y todo al gusto del turista. </p>
+        <br>
+        
+        <h3>A continuación os dejaremos varias opciones de playas a las que ir, si pulsas sobre la imagen te llevará a donde se encuentra cada playa:</h3></br>
+        
+        <div>
+            <p><a class="playaubi" href="https://goo.gl/maps/NkZr4tpULoqsekwq6"><img src="../static/IMÁGENES/playamalvarrosa2.jpg"><br>Playa de la malvarrosa (Valencia).</a></p>
+            <p><a class="playaubi" href="https://goo.gl/maps/JLqHcMffWyDjj3gU7"><img src="../static/IMÁGENES/playasaler.jpg" width="616px" height="450px"><br>Playa el saler (Valencia).</a></p>
+            <p><a class="playaubi" href="https://goo.gl/maps/1dfRAuYpLwN6Dk7M7"><img src="../static/IMÁGENES/playapeñiscola.jpg" width="616px"><br>Playa peñiscola (Castellón).</a></p>
+            <p><a class="playaubi" href="https://goo.gl/maps/LrY3yoLhFiMuMT7V9"><img src="../static/IMÁGENES/javeaplaya.jpg" width="616px"><br>Playa Javea (Alicante).</a></p>
+        </div>
+
+        <script src="menu.js"></script>
+
+        <script>
+            function getFullscreen(element){
+            if(element.requestFullscreen) {
+                element.requestFullscreen();
+            } else if(element.mozRequestFullScreen) {
+                element.mozRequestFullScreen();
+            } else if(element.webkitRequestFullscreen) {
+                element.webkitRequestFullscreen();
+            } else if(element.msRequestFullscreen) {
+                element.msRequestFullscreen();
+            }
+            }
+
+            function abrir(num) {
+                var img = document.getElementById(num);
+                getFullscreen(img);
+            }
+        </script>
+
+    </body>
+
+    <footer>
+        <div style="text-align: left; float: left;">
+            <p>Tambien puede llamarnos al : xxx xxx xxx</p>
+            <p>o enviarnos un email especifico a: <a href="mailto:descubrevalencia@gmail.com">descubrevalencia@gmail.com</a></p>
+        </div>
+        <div style="text-align: center; float: right;">
+            <p>Copyright ©2023 Descubre Valencia</p>
+            <a class="iniciofooter" href="descubre valencia.html">Inicio</a>
+            
+        </div>
+        <a href="https://www.instagram.com/descubre_valencia_tw/"><img  src="../static/IMÁGENES/Instagram.jpg" style="width:50px; height:50px;"></a>
+    </footer>
+
+</html>

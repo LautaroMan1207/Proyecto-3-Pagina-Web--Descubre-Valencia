@@ -1,0 +1,74 @@
+
+
+#cuerpogastro {
+  font-family: Arial, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  background-color:rgb(250,235,215);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#titulogastro {
+  padding: 20px;
+  text-shadow: 2px 2px 4px black;
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+
+h1 {
+  text-align: center ;
+  size: 50px;
+}
+
+#navegastro ul {
+  list-style: none;
+  display: flex;
+  justify-content:space-around;
+  text-align: center;
+}
+ul li {
+  text-align:justify;
+  display: flex;
+}
+#navegastro a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: #000000;
+  text-align:justify;
+}
+
+p {
+  text-shadow: 8px 8px 8px rgb(0, 0, 0);
+  font-style: italic;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  background-color: #00000009;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.plato-imagen {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.restaurante{
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.opciones{
+  text-align: center;
+}
+#bordeim {
+  border: 5px solid black;
+  box-shadow: 10px 10px 5px rgb(71, 53, 20);
+}

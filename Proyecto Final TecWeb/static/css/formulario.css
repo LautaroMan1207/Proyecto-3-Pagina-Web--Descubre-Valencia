@@ -1,0 +1,87 @@
+
+#bodyy {
+  background-color: #EBF5FB;
+  width: 100%;
+  overflow-x: hidden;
+}
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background-color: #fff; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;  
+}
+h2{
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+fieldset.Datos label {
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+  margin-right: 1%;
+}
+
+fieldset.Datos input[type="text"] {
+  padding: 0.5em;
+  margin-bottom: 1em;
+  width: 70%; 
+  display: inline-block; 
+  margin-right: 4em;
+}
+
+  label {
+    font-weight: bold;
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 0.5%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    background-color: #F5F5F5;
+    border: none;
+    width: 80%;
+    
+  }
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+
+  
+  form input[type="checkbox"],
+  form input[type="radio"] {
+    display: inline-block;
+    margin-top: 1%;
+  }
+  
+  
+  input[type="submit"] {
+    background-color: orange;
+    color: white;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: lightsalmon;
+  }
+

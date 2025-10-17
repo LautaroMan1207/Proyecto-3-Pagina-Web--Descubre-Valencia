@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="../static/css/formulario.css">
+    <link rel="stylesheet" href="../static/css/estilo_encabezado.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title>Formulario</title>
+    <script src="../static/java/script.js"></script>
+</head>
+
+<body id="bodyy">
+    <div id="navegar">
+        <header id="encabezado">
+            <h3 id="titulo">Descubre Valencia</h3>
+            <img id="icono" src="../static/IMÁGENES/Logo valencia.jpg">
+        </header>
+    </div>
+
+    <nav id="botones">
+        <a href="descubre valencia.html"><button class="botinicio">Inicio</button></a>
+        <a href="GASTRONOMÍA.html"><button class="botinicio">Gastronomía</button></a>
+        <a href="Turismo.html"><button class="botinicio">Turismo</button></a>
+        <a href="Ocio.html"><button class="botinicio">Ocio nocturno</button></a>
+        <a href="formulario.html"><button class="botinicio">Tu visita</button></a>
+    </nav>
+
+    <h2>Solicitar Información</h2>
+    
+    <form action="mailto:receptor@algunsitio.com" enctype="text/plain" name="fcontacto">
+
+    <fieldset class = "Datos">
+        <legend>Datos del remitente</legend>
+        <label >¿Cual es su nombre?</label>
+        <input type="text" required>
+        <br>
+        <label required>¿ Cual es su  email  ?</label>
+        <input type="text" required>
+        <br>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Estancia en Valencia</legend>
+        <label>¿Cuanto tiempo tiene pensado estar?  </label><br><br>
+
+        <input type="radio" name="noche" id="escapada" value="vescapada">
+        <label>Escapada (1-2 noches)</label><br>
+
+        <input type="radio" id="viaje corto" name="noche" value="vviaje corto">
+        <label for="viaje corto">Estancia corta (3-5 noches)</label><br>
+
+        <input type="radio" id="semana" name="noche" value="semana">
+        <label for="En el límite">Estancia normal (1-2 semanas)</label><br>
+
+        <input type="radio" id="larga"  name="noche" value="larga"> 
+        <label for="Pobre">Estancia larga (más de dos semanas) </label><br>
+
+        <input type="radio" id="ns"  name="noche" value="vns"> 
+        <label for="Pobre">Aún no lo sé </label><br><br>
+
+        
+        <label id="noches">cantidad exacta de noches</label><br>
+        <input id="noches2" type="number" >
+        <br><br>
+
+        Número de personas <input type="number" id="nota" name="nota" size="10" min="0" max="30" step="1"/>
+
+        <br><br>
+    </fieldset> 
+
+    <fieldset>
+        <legend>Información </legend>
+        <label>¿Sobre que quiere Información? </label><br>  <br>
+        <input type="checkbox" id="Culturaa" value="vCulturaa"> <label for="Culturaa">Sitios Culturales</label><br>
+        <input type="checkbox" id="Ocio" value="vOcio"> <label for="Ocio">Ocio Nocturno</label><br>
+        <input type="checkbox" id="Restaurante" value="vRestaurante"> <label for="Restaurante">Restauración</label><br>
+        <input type="checkbox" id="Todo" value="vTodo"> <label for="Todo">Todo </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Información adicional</legend>
+        <p>Qué desea decirnos:</p>
+        <textarea name="text area" form="fcontacto" rows="10" cols="55"></textarea>  
+    </fieldset> 
+    <br>
+
+    <input type="submit">
+    <input type="reset">
+        
+    </form>
+    <br>
+    <br>
+
+</body>
+
+<footer>
+    <div style="text-align: left; float: left;">
+        <p>Tambien puede llamarnos al : xxx xxx xxx</p>
+        <p>o enviarnos un email especifico a: <a href="mailto:descubrevalencia@gmail.com">descubrevalencia@gmail.com</a></p>
+    </div>
+    <div style="text-align: center; float: right;">
+        <p>Copyright ©2023 Descubre Valencia</p>
+        <a class="iniciofooter" href="descubre valencia.html">Inicio</a>
+        
+    </div>
+    <a href="https://www.instagram.com/descubre_valencia_tw/"><img  src="../static/IMÁGENES/Instagram.jpg" style="width:50px; height:50px;"></a>
+</footer>

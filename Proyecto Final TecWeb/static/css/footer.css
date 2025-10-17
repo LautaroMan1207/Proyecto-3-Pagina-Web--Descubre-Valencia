@@ -1,0 +1,39 @@
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-bottom:-8px;
+    margin-left :-8px;
+    display: flex;
+    bottom: 0
+}
+
+.iniciofooter{
+    margin-left: 40px;
+}
+
+footer a {
+    
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer a:hover {
+    color: lightsalmon;
+    text-shadow: 0 0 5px orange;
+}
+
+footer div {
+    width: 32%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+footer img {
+    float: right;
+    padding-top: 16px;
+    padding-left: 580px;
+}
